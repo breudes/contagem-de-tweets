@@ -12,14 +12,15 @@ Este projeto foi feito como atividade avaliativa na disciplina Redes de Computad
 ## Como compilar
 Primeiro, é necessário que a linguagem de programação Python esteja instalada em sua máquina. Para fins de referência, este projeto foi feito utilizando Python versão 3.9. Para instalar o Python em sua máquina acesse https://www.python.org/downloads/.
 
-Para compilar o projeto, execute tais comandos (assumindo $ como o prompt de seu terminal):
-    ```
+Para compilar o projeto (arquivo tweet_counts.py), execute tais comandos (assumindo $ como o prompt de seu terminal):
+    
     # Executar o projeto
-    $ python tweets_count.py
+    $ python tweet_counts.py
     # Inserir os parâmetros necessários
     $ Informe o bearer token: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX    
     $ Informe o conjunto de palavras chave para a consulta: palavra1 palavra2 ...
-    ```
+
+Para utilizar o projeto no Google Colab, basta adicionar o arquivo tweet_counts.ipynb ao Google Colab e selecionar a opção de Ambiente de Execução chamada 'Executar tudo'.
 
 ## Exemplos
 Segue alguns exemplos de palavras chave para a consulta, entretanto, existem mais possibilidades. Para ver mais sobre criação de consultas para requisições do Tweet Counts, acesse https://developer.twitter.com/en/docs/twitter-api/tweets/counts/integrate/build-a-query.
@@ -36,5 +37,5 @@ Segue alguns exemplos de palavras chave para a consulta, entretanto, existem mai
     ```    
     $ Informe o conjunto de palavras chave para a consulta: from:_breudes
     ```
-## Autores 
+## Autor 
 Este projeto foi feito por Brenda Alexandra de Souza Silva (https://github.com/breudes)
