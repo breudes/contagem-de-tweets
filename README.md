@@ -1,13 +1,13 @@
 ## Contagem de Tweets usando Python
 
 ## Sobre o projeto
-Neste trabalho realizamos uma integração com a API do twitter para realizar a contagem de tweets por palavras chave definidas pelo o usuário. Essa contagem é feita utilizando o produto padrão chamado de Tweet Counts. Cada contagem é resultante de uma requisição HTTPS feita à API, que por sua vez retorna a contagem de tweets como resultado.
+Neste trabalho realizamos uma integração com a API do twitter para realizar a contagem de tweets por palavras chave definidas pelo o usuário. Essa contagem é feita utilizando o produto padrão chamado de Tweet Counts, um serviço dispobilizado pela API focado na contagem de tweets. Cada contagem é resultante de uma requisição HTTPS feita à API.
 
 O projeto se baseia nas palavras chave para realizar a contagem de tweets em dois intervalos de tempo: nas últimas 24 (vinte e quatro) horas e nos últimos 7 (sete) dias. Cada intervalo de tempo é utilizado em uma requisição, que nos retorna o resultado de contagem de tweets; ou seja, ao final de duas requisições, temos duas contagens para mostrar. Ambas as contagens são usadas para gerar gráficos: o primeiro referente a contagem das últimas 24 horas, e o segundo referente a contagem dos últimos 7 dias.
 
-Observação: para utilizar este projeto, é necessário que o usuário possua uma conta de desenvolvedor no Twitter, pois nesse perfil de desenvolvedor é onde é gerado a chave que utilizamos para realizar as requisições. Para isso, é necessário fazer uma requisição ao Twitter para obter a conta, peça sua conta de desenvolvedor em https://developer.twitter.com/en/apply-for-access.
+Observação: para utilizar este projeto, é necessário que o usuário possua, além da conta regular do Twitter, também possua uma conta de desenvolvedor no Twitter, pois nesse perfil de desenvolvedor é onde é gerado a chave que utilizamos para realizar as requisições. Para isso, é necessário fazer uma requisição ao Twitter para obter a conta, peça sua conta de desenvolvedor em https://developer.twitter.com/en/apply-for-access.
 
-Este projeto foi feito como atividade avaliativa na disciplina Redes de Computadores, do curso de Bacharelado em Tecnologia da Informação (IMD - UFRN), ministrada pelo o docente Augusto Jose Venancio Neto.
+Este projeto foi feito como atividade avaliativa na disciplina Redes de Computadores, do curso de Bacharelado em Tecnologia da Informação (IMD - UFRN), ministrada pelo docente Augusto Jose Venancio Neto.
 
 ## Como compilar
 Primeiro, é necessário que a linguagem de programação Python esteja instalada em sua máquina. Para fins de referência, este projeto foi feito utilizando Python versão 3.9. Para instalar o Python em sua máquina acesse https://www.python.org/downloads/.
